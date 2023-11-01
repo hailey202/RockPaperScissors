@@ -9,7 +9,7 @@ public class RockPaperScissors {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Choose [r]ock, [p]aper or [s]cissors: ");
+        System.out.println("Choose rock - [r], paper - [p] or scissors - [s]: ");
         String playerMove = scanner.nextLine();
 
         if (playerMove.equals("r") || playerMove.equals("rock")) {
